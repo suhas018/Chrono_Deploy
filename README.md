@@ -55,7 +55,6 @@ python manage.py runserver
 The development server will start at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
 
 
-
 ## Credits
 Learned from [Traversy Media](https://www.traversymedia.com/).
 
