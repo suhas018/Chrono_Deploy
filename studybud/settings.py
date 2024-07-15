@@ -32,7 +32,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','mysite-89mb.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','mysite-89mb.onrender.com','chrono-deploy.onrender.com']
 
 
 # Application definition
