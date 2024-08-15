@@ -27,14 +27,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1','mysite-89mb.onrender.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1','mysite-89mb.onrender.com','chrono-deploy.onrender.com', 'mysite-glz5.onrender.com']
 
 
 # Application definition
